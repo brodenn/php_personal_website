@@ -1,0 +1,96 @@
+/* main.css */
+
+body {
+    background-color: #000000;
+    font-family: 'Orbitron', monospace; /* Matrix-like font */
+    color: #33FF33; /* Matrix green */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  /* ensures the body fills the viewport height */
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 800px;
+
+}
+
+.article {
+    background: #000000; /* Darker background for contrast with the green text */
+    border-left: 1px solid #33FF33; /* Matrix green */
+    border-right: 1px solid #33FF33; /* Matrix green */
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 0.7em;
+}
+
+.article p {
+    font-size: 1.5em;
+}
+
+.article h1 {
+    font-size: 2em;
+    border-bottom: 4px double #33FF33; /* Matrix green */
+    font-family: 'Orbitron', monospace;
+    text-align: center;
+}
+
+.article .author {
+    margin-top: -1em;
+    font-size: 0.8em;
+    color: #66FF66;
+    font-style: italic;
+}
+
+.main, .main .article {
+    min-height: 20em;
+}
+
+.aside {
+    background-color: #000000;
+    border-right: 1px solid #33FF33;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 24px;
+}
+
+.aside-content {
+    padding: 20px;  /* Add 20px of space inside the aside element on all sides */
+}
+
+
+.aside h4 {
+    border-bottom: 1px solid #33FF33;
+    font-family: 'Orbitron', monospace;
+}
+
+.byline {
+    border-top: 1px solid #66FF66;
+    padding-top: 10px;
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 0.9em;
+    color: #66FF66;
+}
+
+.author-name, .publish-date {
+    font-weight: bold;
+}
+
+.center-link {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: #009900; /* A darker shade of matrix green */
+    transition: color 0.3s; /* Smooth transition effect */
+}
+.center-link a:hover {
+    color: #006600; /* Even darker shade of matrix green on hover */
+}
+.center-link a:visited {
+    color: #007700; /* A color shade between the regular and hover state for visited links */
+}
+/* style.css */
+.center-title {
+    text-align: center;
+}

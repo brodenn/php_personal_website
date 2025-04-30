@@ -1,0 +1,36 @@
+/* Common styling for both guessname.php and result.php */
+.guess-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling specific to guessname.php */
+.guess-name {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Styling for the form */
+.guess-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Styling for the result message on result.php */
+.result-message {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Styling for the "Play Again" link on result.php */
+.play-again-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}

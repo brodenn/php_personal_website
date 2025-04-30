@@ -1,0 +1,21 @@
+/* Responsive styling for smaller screens */
+@media (max-width: 700px) {
+    .two-col-layout {
+        flex-direction: column;
+    }
+
+    .two-col-layout .main,
+    .two-col-layout .aside {
+        flex: 1;
+    }
+}
+
+@media (max-width: 650px) {
+    .footer .row {
+        flex-wrap: wrap;
+    }
+
+    .footer .row > .col3 {
+        width: 100%;
+    }
+}

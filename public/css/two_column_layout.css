@@ -1,0 +1,69 @@
+.two-col-layout,
+.two-col-report,
+.two-col-about {
+    display: flex;
+    gap: 20px;
+}
+
+.two-col-report {
+    flex-direction: row-reverse;
+}
+
+.two-col-report .aside-content {
+    flex: 1;
+    order: 1;
+}
+
+.two-col-report .main,
+.two-col-report .report-content {
+    flex: 2;
+}
+
+.two-col-about main {
+    display: contents;
+}
+
+.two-col-about .article {
+    flex: 2;
+}
+
+.two-col-about .aside,
+.two-col-report .aside {
+    flex: 1;
+}
+
+.two-col-report .report-content a,
+.center-link a,
+.two-col-report .aside-content a {
+    transition: color 0.3s;
+}
+
+.two-col-report .report-content a,
+.center-link a {
+    font-size: 20px;
+    color: #009900;
+}
+
+.two-col-report .report-content a:hover,
+.center-link a:hover {
+    color: #006600;
+}
+
+.two-col-report .report-content a:visited,
+.center-link a:visited {
+    color: #007700;
+}
+
+.two-col-report .aside-content a {
+    font-size: 16px;
+    color: #009900;
+    text-decoration: none;
+}
+
+.two-col-report .aside-content a:hover {
+    color: #006600;
+}
+
+.two-col-report .aside-content a:visited {
+    color: #007700;
+}

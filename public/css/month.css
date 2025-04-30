@@ -1,0 +1,96 @@
+.month-page {
+    font-family: 'Orbitron', monospace;
+    color: #33FF33;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* make it take the full viewport height */
+    margin-top: 20px;
+    width: 100%; /* take full width of the parent */
+    flex-grow: 1;   /* Allow main to grow */
+    overflow: auto;  /* enables scrolling if the content gets too tall */
+    overflow: auto;  /* ensures internal content scrolls if too tall */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* This will align items to the top */
+    padding: 20px;
+    flex-grow: 1; /* To ensure it takes the available space */
+    overflow-y: auto; /* Scroll if content gets too tall */
+
+
+}
+
+
+.month-page form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.month-page table {
+    border-collapse: collapse;
+    width: 60%; /* or whatever width you prefer */
+    text-align: left; /* align the text to the left */
+}
+
+
+.month-page table td {
+    border-left: none;  /* Removes left border from all cells */
+    border-right: none; /* Removes right border from all cells */
+    border-top: 1px solid #33FF33;
+    border-bottom: 1px solid #33FF33;
+    padding: 10px;
+}
+
+
+.sunday {
+    color: red;
+}
+
+.month-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.month-page table thead,
+.month-page h2 {
+    background: linear-gradient(45deg, #33FF33, #0099FF);
+    color: white;
+    text-align: center;
+}
+
+.month-page h2 {
+    padding: 10px 0;
+}
+.month-page tr td:nth-child(7) {
+    color: red;
+}
+.month-page .week-number {
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+.month-page .day-number-year {
+    font-size: 0.7em;
+    font-style: italic;
+    color: #0099FF; /* A shade of blue */
+}
+.month-page .nav-links a {
+    padding: 5px 10px;
+    background-color: #33FF33;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.month-page .nav-links a:hover {
+    background-color: #0099FF;
+}
+.nav-links {
+    margin: 10px 0;
+}

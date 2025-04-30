@@ -1,0 +1,57 @@
+/* photocal.css */
+
+/* Style for Sundays */
+.sunday {
+    color: red;
+}
+
+/* Calendar container styles */
+.calendar-container {
+    position: relative;
+    width: 100%;
+    text-align: center; /* Center-align content */
+}
+
+/* Image styles */
+.calendar-container img {
+    width: 50%; /* Set the image width to half of the grid cell */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    z-index: -1;
+}
+
+/* Table styles for grid */
+.calendar-container table {
+    width: 100%;
+    table-layout: fixed; /* Fixed table layout for equal-sized cells */
+}
+
+/* Table cell styles */
+.calendar-container td {
+    height: 60px; /* Adjust the height as desired */
+    width: calc(100% / 7); /* Equal-sized cells for each day of the week */
+    text-align: center;
+    vertical-align: top; /* Align content at the top of cells */
+}
+
+/* Styles for previous and next month links */
+.prev-month,
+.next-month {
+    display: inline-block; /* Display links inline-block to make them horizontal */
+    font-size: 20px; /* Adjust the font size as desired */
+    margin: 10px; /* Add spacing around the links */
+    text-decoration: none;
+    color: #007bff; /* Link color */
+    font-weight: bold;
+    width: 150px; /* Adjust the link width as needed */
+    text-align: center; /* Center the link text */
+}
+
+/* Image styles */
+.calendar-container img {
+    width: 300px; /* Adjust the image width as needed */
+    height: 150px; /* Adjust the image height as needed */
+    object-fit: cover; /* Maintain aspect ratio while filling the container */
+    z-index: -1;
+}

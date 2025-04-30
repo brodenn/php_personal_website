@@ -1,0 +1,36 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #000000;
+    border-top: 4px solid #33FF33;
+    border-bottom: 4px solid #33FF33;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(33, 255, 51, 0.3);
+    font-family: 'Orbitron', monospace;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    color: #33FF33;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    color: #000;
+    background-color: #33FF33;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar ul li.active a {
+    color: #FF0000;
+    font-weight: bold;
+    background-color: #33FF33;
+    border-radius: 5px;
+}
